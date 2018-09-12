@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:background="@drawable/verificationcodebackground">
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="35dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/enterphone"
+        android:layout_marginTop="53dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="400dp"
+        android:layout_height="35dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/forverification"
+        android:layout_marginTop="19dp"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="28dp"
+        android:layout_height="70dp"
+        android:inputType="number"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:gravity="bottom"
+        android:ems="10"
+        android:maxLength="1"
+        android:id="@+id/pNum3"
+        android:layout_alignTop="@+id/pNum2"
+        android:layout_toRightOf="@+id/pNum2"
+        android:layout_toEndOf="@+id/pNum2" />
+
+    <TextView
+        android:text="-"
+        android:textSize="60sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:maxLength="1"
+        android:layout_width="28dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/pNum3"
+        android:layout_toRightOf="@+id/pNum3"
+        android:layout_toEndOf="@+id/pNum3"
+        android:id="@+id/dash1" />
+
+    <EditText
+        android:layout_width="28dp"
+        android:layout_height="70dp"
+        android:inputType="number"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:gravity="bottom"
+        android:ems="10"
+        android:maxLength="1"
+        android:id="@+id/pNum4"
+        android:layout_alignTop="@+id/dash1"
+        android:layout_toRightOf="@+id/dash1"
+        android:layout_toEndOf="@+id/dash1" />
+
+    <EditText
+        android:layout_width="28dp"
+        android:layout_height="70dp"
+        android:inputType="number"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:gravity="bottom"
+        android:ems="10"
+        android:maxLength="1"
+        android:id="@+id/pNum5"
+        android:layout_alignTop="@+id/pNum4"
+        android:layout_toRightOf="@+id/pNum4"
+        android:layout_toEndOf="@+id/pNum4" />
+
+    <TextView
+        android:text="-"
+        android:textSize="60sp"
+        android:gravity="center"
+        android:textColor="@android:color/white"
+        android:maxLength="1"
+        android:layout_width="28dp"
+        android:layout_height="70dp"
+        android:layout_alignTop="@+id/pNum6"
+        android:layout_toRightOf="@+id/pNum6"
+        android:layout_toEndOf="@+id/pNum6"
+        android:id="@+id/dash2" />
+
+    <EditText
+        android:layout_width="28dp"
+        android:layout_height="70dp"
+        android:inputType="number"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:gravity="bottom"
+        android:ems="10"
+        android:maxLength="1"
+        android:id="@+id/pNum8"
+        android:layout_alignTop="@+id/pNum7"
+        android:layout_toRightOf="@+id/pNum7"
+        android:layout_toEndOf="@+id/pNum7" />
+
+    <EditText
+        android:layout_width="28dp"
+        android:layout_height="70dp"
+        android:inputType="number"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:gravity="bottom"
+        android:ems="10"
+        android:maxLength="1"
+        android:id="@+id/pNum9"
+        android:layout_alignTop="@+id/pNum8"
+        android:layout_toRightOf="@+id/pNum8"
+        android:layout_toEndOf="@+id/pNum8" />
+
+    <EditText
+        android:layout_width="28dp"
+        android:layout_height="70dp"
+        android:inputType="number"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:gravity="bottom"
+        android:ems="10"
+        android:maxLength="1"
+        android:id="@+id/pNum10"
+        android:layout_alignBaseline="@+id/pNum9"
+        android:layout_alignBottom="@+id/pNum9"
+        android:layout_toRightOf="@+id/pNum9"
+        android:layout_toEndOf="@+id/pNum9" />
+
+    <EditText
+        android:layout_width="28dp"
+        android:layout_height="70dp"
+        android:inputType="number"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:gravity="bottom"
+        android:ems="10"
+        android:maxLength="1"
+        android:id="@+id/pNum2"
+        android:layout_alignBaseline="@+id/pNum1"
+        android:layout_alignBottom="@+id/pNum1"
+        android:layout_toRightOf="@+id/pNum1"
+        android:layout_toEndOf="@+id/pNum1" />
+
+    <EditText
+        android:layout_width="28dp"
+        android:layout_height="70dp"
+        android:inputType="number"
+        android:ems="10"
+        android:maxLength="1"
+        android:gravity="bottom"
+        android:textSize="40sp"
+        android:id="@+id/pNum1"
+        android:textColor="@android:color/white"
+        android:layout_marginTop="131dp"
+        android:layout_below="@+id/imageView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:layout_width="28dp"
+        android:layout_height="70dp"
+        android:inputType="number"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:gravity="bottom"
+        android:ems="10"
+        android:maxLength="1"
+        android:id="@+id/pNum6"
+        android:layout_alignBaseline="@+id/pNum5"
+        android:layout_alignBottom="@+id/pNum5"
+        android:layout_toRightOf="@+id/pNum5"
+        android:layout_toEndOf="@+id/pNum5" />
+
+    <EditText
+        android:layout_width="28dp"
+        android:layout_height="70dp"
+        android:inputType="number"
+        android:textColor="@android:color/white"
+        android:textSize="40sp"
+        android:gravity="bottom"
+        android:ems="10"
+        android:maxLength="1"
+        android:id="@+id/pNum7"
+        android:layout_alignTop="@+id/dash2"
+        android:layout_toRightOf="@+id/dash2"
+        android:layout_toEndOf="@+id/dash2" />
+
+</RelativeLayout>

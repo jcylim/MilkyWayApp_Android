@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/enterverificationcode"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="20dp"
+    android:paddingRight="20dp"
+    android:paddingTop="20dp"
+    android:background="@drawable/verificationcodebackground">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="553dp">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="34dp"
+            android:id="@+id/EnterPINCode"
+            android:src="@drawable/enterverificationcode"
+            android:layout_marginTop="53dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:inputType="number"
+            android:gravity="bottom|center"
+            android:textSize="50sp"
+            android:textColor="@android:color/white"
+            android:ems="10"
+            android:maxLength="1"
+            android:id="@+id/editText1"
+            android:layout_weight="1"
+            android:layout_alignTop="@+id/editText2"
+            android:layout_toRightOf="@+id/editText2"
+            android:layout_toEndOf="@+id/editText2" />
+
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:inputType="number"
+            android:gravity="bottom|center"
+            android:textColor="@android:color/white"
+            android:textSize="50sp"
+            android:ems="10"
+            android:maxLength="1"
+            android:id="@+id/editText3"
+            android:layout_alignTop="@+id/editText1"
+            android:layout_toRightOf="@+id/editText1" />
+
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:inputType="number"
+            android:ems="10"
+            android:gravity="bottom|center"
+            android:textColor="@android:color/white"
+            android:textSize="50sp"
+            android:maxLength="1"
+            android:id="@+id/editText4"
+            android:layout_alignTop="@+id/editText3"
+            android:layout_toRightOf="@+id/editText3"
+            android:layout_toEndOf="@+id/editText3" />
+
+        <EditText
+            android:layout_width="80dp"
+            android:layout_height="90dp"
+            android:inputType="number"
+            android:ems="10"
+            android:gravity="bottom|center"
+            android:textColor="@android:color/white"
+            android:textSize="50sp"
+            android:textColorHint="@android:color/white"
+            android:id="@+id/editText2"
+            android:maxLength="1"
+            android:layout_weight="1"
+            android:layout_marginTop="159dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginStart="12dp"
+            android:layout_below="@+id/EnterPINCode"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    </RelativeLayout>
+
+</LinearLayout>
